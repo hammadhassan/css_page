@@ -1,17 +1,61 @@
-* {
-    background-color: #E7E4E1;
-}
-
-div {
-    width: 200px;
-    height: 100px;
-    background-color: #FD4587;
-    /* Rotate div */
-    -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
-}
-
 P {
      background-color: #373037;
+}
+
+
+body {
+    background-color: #e7e4e1;
+}
+P {
+    background-color: #373037;
+}
+
+.container {
+}
+.container {
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+}
+
+body {
+    margin: 30px 0 0;
+}
+.bg {
+    background: #373037 none repeat scroll 0 0;
+    height: inherit;
+    margin: 50px 260px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10000;
+}
+.shade {
+    background: #fff none repeat scroll 0 0;
+    height: 70px;
+    left: -150px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 100%;
+    z-index: 1000;
+}
+.pinkshade {
+    background: #FD4587 none repeat scroll 0 0;
+    height: 70px;
+    left: -150px;
+    opacity: 0.5;
+    position: absolute;
+    top: 1px;
+    transform: rotate(-45deg);
+    width: 100%;
+}
+.box {
+    background: black none repeat scroll 0 0;
+    height: 30px;
+    left: 320px;
+    position: absolute;
+    top: 340px;
+    width: 30px;
 }

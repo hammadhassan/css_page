@@ -1,38 +1,37 @@
-body {
-    background-color: #e7e4e1;
-}
 
+body {
+    background-color: dimgrey;
+}
 .container {
-    height: 800px;
+    height: 750px;
     margin: 0 auto;
     position: relative;
-    width: 1200px;
+    width: 800px;
 }
-
 body {
-    margin: 30px 0 0;
+    margin: 0;
 }
 .bg {
     background: #373037 none repeat scroll 0 0;
     height: inherit;
-    margin: 50px 260px;
     overflow: hidden;
     position: relative;
     z-index: 10000;
 }
 .shade {
     background: #fff none repeat scroll 0 0;
-    height: 70px;
-    left: -150px;
+    height: 71px;
+    left: -271px;
     opacity: 0.5;
+    overflow: hidden;
     position: absolute;
-    top: 0;
+    top: 120px;
     transform: rotate(-45deg);
     width: 100%;
     z-index: 1000;
 }
 .pinkshade {
-    background: #FD4587 none repeat scroll 0 0;
+    background: #fd4587 none repeat scroll 0 0;
     height: 70px;
     left: -150px;
     opacity: 1;
@@ -41,38 +40,63 @@ body {
     transform: rotate(-45deg);
     width: 100%;
 }
-
-h1 {
+.font {
+    color: #fff;
     font-family: sans-serif;
     font-size: 200px;
-    margin: 69px 422px;
+    margin: 69px 512px;
     position: relative;
-    color: #fff;
 }
 .size {
+    color: #fd4587;
     font-family: sans-serif;
     font-size: 75px;
-    margin: -64px 115px;
+    margin: -64px 201px;
     position: absolute;
-    color: #FD4587;
 }
 .css {
+    color: #fd4587;
     font-family: sans-serif;
     font-size: 75px;
-    margin: 2px 488px;;
+    margin: 2px 573px;
     position: absolute;
-    color: #FD4587;
 }
-
 .bullets {
+    color: #fff;
     font-family: sans-serif;
     font-size: 20px;
-    margin: 324px 23px;
+    margin: 230px 60px;
     position: relative;
-    color: #fff;
 }
-
 p {
     font-family: sans-serif;
     font-size: 24px;
+}
+.wing {
+    font-family: wingdings;
+}
+ul {
+    list-style: outside none none;
+    margin: 0.75em 0;
+    padding: 0 1em;
+}
+li::before {
+    border-color: transparent #fff;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    content: "";
+    display: block;
+    height: 0;
+    left: -1em;
+    position: relative;
+    top: 0.9em;
+    width: 0;
+}
+.page {
+    background-color: #e7e4e1;
+    height: 850px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px;
+    width: 850px;
 }

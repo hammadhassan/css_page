@@ -69,8 +69,8 @@ body {
     position: relative;
 }
 p {
-    font-family: sans-serif;
-    font-size: 24px;
+    
+}
 }
 .wing {
     font-family: wingdings;
@@ -99,4 +99,9 @@ li::before {
     overflow: hidden;
     padding: 60px;
     width: 850px;
+}
+.copy {
+    margin: -23px 0;
+    text-align: center;
+    font-family: sans-serif;
 }

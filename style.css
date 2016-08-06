@@ -1,15 +1,13 @@
 
 body {
     background-color: dimgrey;
+    margin: 0;
 }
 .container {
     height: 750px;
     margin: 0 auto;
     position: relative;
     width: 800px;
-}
-body {
-    margin: 0;
 }
 .bg {
     background: #373037 none repeat scroll 0 0;
